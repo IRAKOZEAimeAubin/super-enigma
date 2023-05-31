@@ -1,7 +1,16 @@
 <script setup>
-
+import SignUp from './components/SignUp.vue';
 </script>
 
 <template>
-  <span class="text-center">Hello</span>
+  <SignUp />
 </template>
+
+<script>
+export default {
+  name: "App",
+  components: {
+    SignUp
+  }
+}
+</script>
